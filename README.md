@@ -30,6 +30,7 @@ java -Dbt.root=/Users/xxx/Documents/rnirnt -cp .:/Users/xxx/Documents/rnirnt/:/U
 
 The output of this code looks similar to the following:
 
+```
 ----
 Original text: برهم أحمد صالح
 Original language: ARABIC
@@ -68,3 +69,4 @@ Translation: Yi Nak-yo'n	Confidence: 1.0
 Original text: 김정은
 Original language: KOREAN
 Translation: Kim Cho'ng-u'n	Confidence: 1.0
+```

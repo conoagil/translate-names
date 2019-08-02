@@ -25,3 +25,46 @@ javac -classpath /Users/xxx/Documents/rnirnt/:/Users/xxx/Documents/rnirnt/rlpnc/
 Use this command to run:
 
 java -Dbt.root=/Users/xxx/Documents/rnirnt -cp .:/Users/xxx/Documents/rnirnt/:/Users/xxx/Documents/rnirnt/rlpnc/lib/jvm/* TranslateNameFile
+
+## Sample Output ##
+
+The output of this code looks similar to the following:
+
+----
+Original text: برهم أحمد صالح
+Original language: ARABIC
+Translation: Brhm Ahmad Salih	Confidence: 0.0
+Translation: Brhm Ahmad Salih	Confidence: 0.0
+----
+Original text: عبد الفتاح سعيد حسين خليل السيسى
+Original language: ARABIC
+Translation: 'Abd-al-Fattah Sa'id Husayn Khalil al-SysA	Confidence: 0.0
+Translation: 'Abd-al-Fattah Sa'id Husayn Khalil al-SysA	Confidence: 0.0
+----
+Original text: 胡锦涛
+Original language: CHINESE
+Translation: Hu Jintao	Confidence: 1.0
+----
+Original text: 习近平
+Original language: CHINESE
+Translation: Xi Jinping	Confidence: 1.0
+----
+Original text: Влади́мир Влади́мирович Пу́тин
+Original language: RUSSIAN
+Translation: Vladímir Vladímirovich Pútin	Confidence: 1.0
+----
+Original text: Дми́трий Анато́льевич Медве́дев
+Original language: RUSSIAN
+Translation: Dmítriy Anatólyevich Medvédev	Confidence: 1.0
+----
+Original text: 문재인
+Original language: KOREAN
+Translation: Mun Chae-in	Confidence: 1.0
+----
+Original text: 이낙연
+Original language: KOREAN
+Translation: Yi Nak-yo'n	Confidence: 1.0
+----
+Original text: 김정은
+Original language: KOREAN
+Translation: Kim Cho'ng-u'n	Confidence: 1.0
